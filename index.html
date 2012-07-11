@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sg_list.js</title>
+
+	<!-- Requirements -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js"></script>
+	<script src="sg-date-picker.min.js"></script>
+	<!-- / Requirements -->
+
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/Aristo/Aristo.css">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+	<script src="assets/js/app.js"></script>
+
+</head>
+<body>
+
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="brand" href="index.html">sg-date-picker.js</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="https://github.com/davidtsuji/sg_datePicker">GitHub</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+
+		<div class="hero-unit">
+			<h1>sgDatePicker</h1>
+			<p>A JavaScript control that turns an input into a jQuery $.datePicker .. all without writing any JavaScript.</p>
+			<p><a href="https://github.com/davidtsuji/sg_datePicker" class="btn btn-primary btn-large">View on GitHub &raquo;</a></p>
+		</div>
+
+		<div class="row-fluid">
+
+			<div class="span12">
+
+				<div class="page-header">
+					<h1>Example <small>click or tab into the input field to show the date picker</small></h1>
+				</div>
+
+				<form style="margin-top:20px">
+
+					<fieldset>
+
+						<div class="control-group">
+
+							<div class="controls">
+								<input type="text" style="width:236px" data-sg-date-picker='{ "dateFormat":"yy/mm/dd" }' placeholder="yyyy/mm/dd">
+							</div>
+
+						</div>
+
+					</fieldset>
+
+				</form>
+
+				<h3>Default Markup <small>the date format defaults to dd/mm/yyyy</small></h3>
+
+<pre class="prettyprint linenums">
+&lt;input type="text" data-sg-date-picker=""&gt;
+</pre>
+
+				<h3>Custom Markup <small>with a custom date format</small></h3>
+
+<pre class="prettyprint linenums">
+&lt;input type="text" data-sg-date-picker='{ "dateFormat":"yy/mm/dd" }'&gt;
+</pre>
+
+
+
+			</div>
+
+		</div>
+
+		<hr>
+
+		<footer>
+			<p><a href="https://twitter.com/davidtsuji/" target="_blank">@davidtsuji</a> 2012</p>
+			<p>jQuery UI theme by <a href="https://github.com/taitems/Aristo-jQuery-UI-Theme" target="_blank">taitems</a></p>
+		</footer>
+
+	</div>
+
+</body>
+</html>
+
