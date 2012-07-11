@@ -3,6 +3,7 @@
 	$( function(){
 
 		prettyPrint();
+		$( '[rel="tooltip"]' ).tooltip();
 
 	} );
 
