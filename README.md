@@ -7,16 +7,16 @@ A markup controlled date picker without having to write any JavaScript. All you 
 ## Example
 
 the date format defaults to dd/mm/yyyy
-<input type="text" data-sg-date-picker="">
+<code><input type="text" data-sg-date-picker=""></code>
 
 use a custom date format *must be compliant with jQuery UI's dateFormat
-<input type="text" data-sg-date-picker='{ "dateFormat":"yy/mm/dd" }'>
+<code><input type="text" data-sg-date-picker='{ "dateFormat":"yy/mm/dd" }'></code>
 
 
 
 ## Installation
 
-<script src="sg-date-picker.min.js"></script>
+<code><script src="sg-date-picker.min.js"></script></code>
 
 
 
